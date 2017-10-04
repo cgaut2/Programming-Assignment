@@ -1,0 +1,19 @@
+Would you like to find volume or surface area?
+
+
+//Sample output for volume
+Volume //input
+What shape would you like to find the volume for?
+Rectagular prism//input
+What is the l/w/h
+3,4,5 //input
+the volume is 60
+
+
+//Sample output for surface area
+surface area //input
+What shape would you like to find the surface area for?
+Sphere //input
+what is the radius
+4
+the surface area is 201
