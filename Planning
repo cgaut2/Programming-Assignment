@@ -6,4 +6,9 @@ Create classes to represent all of the shapes
   for example class sphere
 
 Create objects 
-  
+  representing an instance of each of the shapes
+
+Implementing other aspects of oop
+  inheritance?
+  polymorphism?
+  encapsulation?
