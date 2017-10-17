@@ -1,15 +1,13 @@
 Planning
-
-Create classes to represent all of the shapes
+  create 1 class to dtermine variables and shapes
   with attributes of l/w/h/r
   methods of calculating SA/volume
-  for example class sphere
+  create a second class to call the methods
 
 Create objects 
   representing an instance of each of the shapes
 
 Implementing other aspects of oop
-  inheritance? - potentially have subclasses of different types of shapes
-      (pyramids, rectangular prism vs square)
+  inheritance? - Use subclass to hold methods; volume and surface area
   polymorphism?
   encapsulation?
