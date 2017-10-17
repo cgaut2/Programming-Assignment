@@ -1,2 +1,15 @@
 Algorithms
 
+Main class
+
+Create variables
+  radius,sideA,sideB,sideC,sideD
+  get input from user asking what shape
+    use if/case statements to determine which object to create
+  
+
+
+Class calculations
+create method "Surface Area"
+
+create method "Volume"
