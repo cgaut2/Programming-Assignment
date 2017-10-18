@@ -4,12 +4,28 @@ Main class
 
 Create variables
   radius,sideA,sideB,sideC,sideD
-  get input from user asking what shape
-    use if/case statements to determine which object to create
-  
+get input from user asking what shape
+use if/case statements to determine which object to create
+  get input for sidelengths based on which object is being created
+  call the appropriate calculation method 
+  output the result
+    
 
 
 Class calculations
-create method "Surface Area"
-
-create method "Volume"
+create method "Surface Area Rectangular Prism"
+2 × w × l + 2 × l × h + 2 × h × w
+create method "Volume Rectangular Prism"
+ l × w × h
+create method "Surface Area sphere"
+4 × π × r²
+create method "Volume sphere"
+(4/3) × π × r³
+create method "Surface Area cone"
+π × r² + π × r × √(r²+h²)
+create method "Volume cone"
+π × r² × (h/3)
+create method "Surface Area cylinder"
+2 × π × r × (r + h)
+create method "Volume cylinder"
+π × r² × h
