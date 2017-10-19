@@ -13,7 +13,7 @@ public class Shapes3D extends Calculations {
    
     //
     System.out.println("What shape would you like to use");
-    System.out.println("(1)Cone,(2)RectangualrPrism");
+    System.out.println("(1)Cone,(2)RectangualrPrism, (3)Sphere");
     int Shape = scan.nextInt();
     switch(Shape){
        
@@ -34,6 +34,14 @@ public class Shapes3D extends Calculations {
     int RPHeight = scan.nextInt();
     Shapes3D rectangularPrism = new Shapes3D();
     rectangularPrism.rectangularPrismCalcs(RPLength,RPWidth,RPHeight);
+    break;
+    
+    //
+    case 3:
+    System.out.println("Enter the radius of the sphere");
+    int sphereRadius = scan.nextInt();
+    Shapes3D sphere = new Shapes3D();
+    sphere.sphereCalcs(sphereRadius);
     break;
    }
     

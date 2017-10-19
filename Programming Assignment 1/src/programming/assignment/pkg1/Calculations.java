@@ -17,4 +17,9 @@ public class Calculations {
         Volume = (float) (Math.PI*radius*radius*height/3);
         System.out.println("The surface area is " + surfaceArea + " and the volume is " + Volume );
     }
+      public void sphereCalcs(int radius){
+        surfaceArea = (float) (4*Math.PI*radius*radius);
+        Volume = (float) (4*Math.PI*Math.pow(radius, 3)/4);
+        System.out.println("The surface area is " + surfaceArea + " and the volume is " + Volume );
+    }
 }
